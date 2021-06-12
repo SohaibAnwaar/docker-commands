@@ -155,13 +155,23 @@ docker container exec -it mysql bash
 * **bash**  : Program you want to run inside the container
 
 
-# Command 14 (Pull Image without starting)
+## Command 14 (Pull Image without starting)
 if you want to pull an image without running a container than use this command
 
 ```
 docker pull ubuntu
 ```
 * **alpine** : alpine is the name of the image which I am going to pull
+
+## Command 15 (History of the image)
+If you want to see what new things added or deleted from the image you can all the history with this command.
+
+```
+docker container history nginx:latest
+```
+
+where nginx is the name of the image and latest tag is the version of the image.
+
 
 
 # Author 
